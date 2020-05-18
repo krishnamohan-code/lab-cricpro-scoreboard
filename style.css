@@ -6,25 +6,27 @@
 	border: 0;
 	padding: 0;
 	margin: 0;
+	font-family: sans-serif;
 }
 
 body{
-	margin: 70px;
-	background-image: url("background-image1.png");
+	margin: 50px;
+	background-image: url("./assets/background-image1.png");
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	
 
 }
 .container{
-	margin-right: 250px;
+	margin-right: 275px;
 	background: white;
 	margin-top: 1px;
 	text-decoration: none;
 }
-h1{
+h5{
 		color: black;
-		text-shadow: 1px 1px 2px #000000;
+		text-shadow: 1px 1px 3px #000000;
+		font-size: 40px;
 }
 #logo{
 	display: flex;
@@ -51,28 +53,26 @@ h4{
 	  height: 10px;
 	  padding: 10px;
 	  margin-top: 10px;
-	  border-bottom: 1px solid grey;
+  }
+  .grid2,.grid3,.grid4,.grid5,.grid6,.grid7,.grid8,.grid9,.grid10,.grid11{
+	border-bottom: 1px solid lightgray;
+	border-left: 1px solid whitesmoke;
   }
   .grid3,.grid4,.grid5,.grid6,.grid7,.grid8{
 		display:grid;
 		grid-template-columns: 5fr 7fr 1fr 1fr 1fr 1fr 1fr;
-		
 		padding: 6px;
 		margin-top: 5px;
-		border-bottom: 1px solid grey;
-	
   }
   .grid9,.grid10,.grid11{
 	  display: grid;
 	  grid-template-columns: 2.4fr 1fr ;
-	  border-bottom: 1px solid grey;
 	  height: 20px;
 	  padding: 10px;
   }
   .grid11{
 	  border-bottom: 1px solid whitesmoke;
 	  grid-template-columns: 0.6fr 1.5fr ;
-	  text-decoration:underline;
   }
 .footer{
     display:flex;
@@ -83,7 +83,13 @@ h4{
 	margin-left: -40px;
 	margin-top: 25px;
 	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+	/* font-family: Nunito Sans; */
+    font-style: normal;   
+}
+strong,p{
+	color: gray;
+}
+a{
+	text-decoration: none;
+	color: rgba(19, 19, 214, 0.774);
 }
